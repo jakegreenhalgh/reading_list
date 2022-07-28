@@ -34,5 +34,8 @@ const formHandler = function (event) {
 
 const handleButtonClick = function () {
   const list= document.querySelector('ul');
-  list.reset()
+  const books = document.querySelectorAll('li')
+  for (book of books) {
+    list.removeChild(book)
+  }
 };
