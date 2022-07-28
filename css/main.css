@@ -1,0 +1,19 @@
+body {
+  font-family: Palatino;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.author {
+  font-size: large;
+}
+
+.category {
+  font-size: medium;
+}
